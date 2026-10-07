@@ -15,6 +15,16 @@ const config: Config = {
         },
         navy: '#254153',
       },
+      fontFamily: {
+        // Adobe Fonts web name is "p22-mackinac-pro"; desktop names included as fallbacks
+        mackinac: [
+          'p22-mackinac-pro',
+          'P22 Mackinac Pro',
+          'P22 Mackinac',
+          'Georgia',
+          'serif',
+        ],
+      },
       backgroundImage: {
         'gradient-primary': 'linear-gradient(135deg, #4395A6 0%, #02707A 100%)',
         'gradient-text': 'linear-gradient(135deg, #4395A6 0%, #9CC064 100%)',

@@ -58,7 +58,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
+            <h1 className="font-mackinac text-5xl lg:text-7xl font-extrabold leading-tight">
               Where Reading{' '}
               <span className="text-gradient">Momentum</span> Begins
             </h1>
