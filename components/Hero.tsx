@@ -58,14 +58,16 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight">
-              Where Reading{' '}
-              <span className="text-gradient">Momentum</span> Begins
+            <h1 className="font-mackinac text-5xl lg:text-7xl font-extrabold leading-tight">
+              Every person deserves the opportunity to{' '}
+              <span className="text-gradient">Read</span>
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed">
-              Transform literacy outcomes with research-based reading instruction that
-              empowers educators, engages students, and builds thriving communities.
+              Reading Horizons brings 40 years of literacy expertise to districts through
+              structured literacy solutions spanning foundational skills, comprehensive
+              instruction, and intervention—along with professional learning for educators
+              and leaders—from pre-K through grade 12.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

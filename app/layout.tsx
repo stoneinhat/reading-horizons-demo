@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   },
 }
 
+const adobeFontsKit = process.env.NEXT_PUBLIC_ADOBE_FONTS_KIT
+
 export default function RootLayout({
   children,
 }: {
@@ -16,6 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        {adobeFontsKit ? (
+          <>
+            <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+            <link rel="preconnect" href="https://p.typekit.net" crossOrigin="anonymous" />
+            <link rel="stylesheet" href={`https://use.typekit.net/${adobeFontsKit}.css`} />
+          </>
+        ) : null}
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   )
