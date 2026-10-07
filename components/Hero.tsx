@@ -59,8 +59,8 @@ export default function Hero() {
             className="space-y-8"
           >
             <h1 className="font-mackinac text-5xl lg:text-7xl font-extrabold leading-tight">
-              Where Reading{' '}
-              <span className="text-gradient">Momentum</span> Begins
+              Every person deserves the opportunity to{' '}
+              <span className="text-gradient">Read</span>
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed">
